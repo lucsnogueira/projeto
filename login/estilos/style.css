@@ -30,15 +30,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
     width: 250px;
     height: 515px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(211, 211, 211, 0.63);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -113,7 +113,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #49a09d;
+    background-color: #5A4A8A;
 }
 
 form > a.botao {
@@ -136,7 +136,8 @@ form > a.botao > span {
 }
 
 form > a.botao:hover {
-    background-color: #6cd3cf;
+    background-color: #5A4A8A;
+    color: white;
 }
 
 
